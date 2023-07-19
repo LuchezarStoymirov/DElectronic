@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 0;
+  height: 40px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--yellow);
+}
+
+.button.active {
+  color: var(--yellow)
+}

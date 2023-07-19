@@ -1,0 +1,11 @@
+:root {
+  font-family: sans-serif;
+
+  --blue: rgba(0, 37, 80);
+  --yellow : rgba(255,209,0);
+  --lightBlue : #03a9f4;
+}
+
+body{
+  margin : 0
+}
