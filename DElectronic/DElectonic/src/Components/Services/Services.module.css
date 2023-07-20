@@ -1,6 +1,7 @@
 .container{
     margin: 0;
     width: 100vw;
-    height: 500px;
+    height: 100vh;
     background-color: gray;
+    box-shadow: var(--boxShadow);
 }

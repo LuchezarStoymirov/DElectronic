@@ -4,7 +4,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 export const AboutUs = () => {
   return (
     <div className={style.container}>
-        <ParallaxLayer offset={0.6} speed={0.7}>
+        <ParallaxLayer offset={0.6} speed={0.5}>
       <div className={style.info}>
         <h1 className={style.title}>Кои сме ние?</h1>
         <p className={style.content}>

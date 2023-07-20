@@ -7,17 +7,17 @@ import { Services } from "../Components/Services/Services";
 
 export const Home = () => {
   return (
-    <Parallax pages={2.7}>
+    <Parallax pages={3}>
       <div className={style.container}>
         <ParallaxLayer>
           <Header />
           <NavBar />
           <AboutUs />
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5}>
+        <ParallaxLayer offset={1.3} speed={0.4}>
           <Services />
         </ParallaxLayer>
-        <ParallaxLayer offset={1.9} speed={0.6}>
+        <ParallaxLayer offset={2} speed={0.7}>
           <Services />
         </ParallaxLayer>
       </div>
