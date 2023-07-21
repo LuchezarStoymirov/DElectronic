@@ -18,7 +18,6 @@ export const Home = () => {
           <Services />
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.7}>
-          <Services />
         </ParallaxLayer>
       </div>
     </Parallax>
