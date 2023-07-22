@@ -4,7 +4,7 @@
     height: 100vh;
     box-shadow: var(--boxShadow);
     background-color: var(--blue);
-    background-size: cover;
+    background-size: repeat;
     display: flex;
     justify-content: center;
     align-items: center;
