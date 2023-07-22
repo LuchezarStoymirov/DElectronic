@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     box-shadow: var(--boxShadow);
-    background-image: url(src/Images/ServiceBG.jpeg);
+    background-color: var(--blue);
     background-size: cover;
     display: flex;
     justify-content: center;
