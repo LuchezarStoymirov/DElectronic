@@ -4,12 +4,14 @@ import { Header } from "../Components/Header/Header";
 import { NavBar } from "../Components/NavBar/NavBar";
 import { AboutUs } from "../Components/AboutUs/AboutUs";
 import { Services } from "../Components/Services/Services";
+import { Footer } from "../Components/Footer/Footer";
 import { useRef } from "react";
 
 export const Home = () => {
   const parallaxRef = useRef(); 
 
   return (
+    <>
     <Parallax ref={parallaxRef} pages={3}>
       <div className={style.container}>
         <ParallaxLayer>
@@ -20,10 +22,11 @@ export const Home = () => {
         <ParallaxLayer offset={1.3} speed={0.4}>
           <Services />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.7}>
-          {/* Content for the third ParallaxLayer goes here */}
+        <ParallaxLayer offset={2} speed={0}>
+          <Footer/>
         </ParallaxLayer>
       </div>
     </Parallax>
+    </>
   );
 };
