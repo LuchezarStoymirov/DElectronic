@@ -1,4 +1,5 @@
 import style from "./Footer.module.css";
+import { QueryForm } from "../QueryFrom/QueryForm";
 
 export const Footer = () => {
   return (
@@ -13,14 +14,15 @@ export const Footer = () => {
           ></iframe>
         </div>
         <div className={style.contacts}>
-          <h3 className={style.info}>Tel.: 0878123456</h3>
+          <h3 className={style.info}>Телефон: +359877608777</h3>
           <h3 className={style.info}>
             Адрес: Софийски околовръстен път 36, 1415 Водолей-1, София
           </h3>
-          <h3 className={style.info}>Email: deelectronic@mail.com</h3>
+          <h3 className={style.info}>Имейл: de.elektronik@gmail.com</h3>
         </div>
         <div className={style.emailForm}>
             <h2 className={style.formHeader}>Изпратете Запитване</h2>
+            <QueryForm />
         </div>
       </div>
     </div>

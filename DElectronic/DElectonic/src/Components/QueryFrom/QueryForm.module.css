@@ -1,0 +1,48 @@
+.queryForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.queryForm label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.queryForm input[type="text"], 
+.queryForm input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+} 
+.queryForm textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.queryForm input[type="submit"] {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: var(--lightBlue);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.queryForm input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

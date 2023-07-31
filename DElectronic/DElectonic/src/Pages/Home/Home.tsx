@@ -1,10 +1,10 @@
 import style from "./Home.module.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { Header } from "../Components/Header/Header";
-import { NavBar } from "../Components/NavBar/NavBar";
-import { AboutUs } from "../Components/AboutUs/AboutUs";
-import { Services } from "../Components/Services/Services";
-import { Footer } from "../Components/Footer/Footer";
+import { Header } from "../../Components/Header/Header";
+import { NavBar } from "../../Components/NavBar/NavBar";
+import { AboutUs } from "../../Components/AboutUs/AboutUs";
+import { Services } from "../../Components/Services/Services";
+import { Footer } from "../../Components/Footer/Footer";
 import { useRef } from "react";
 
 export const Home = () => {
