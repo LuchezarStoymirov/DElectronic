@@ -1,13 +1,24 @@
 import style from './Services.module.css';
 import { ParallaxLayer } from '@react-spring/parallax';
+import { useNavigate } from 'react-router-dom';
 
 export const Services = () => {
+
+    const navigate = useNavigate();
+
+    const handleClick = (event: any) => {
+        const target = event.currentTarget.getAttribute('data-target');
+        navigate(target);
+    }
+    
+
     return(
         <div className={style.container}>
             <ParallaxLayer offset={0.6} speed={0.5} className={style.parallax}>
             <div className={style.info}>
                 <div className={style.service}>
-                    <div className={style.box}>
+                    <div className={style.box} data-target="/products" onClick={handleClick}>
+
                         <div className={style.img} style={{backgroundImage: 'url(src/Images/SellInvetory.jpeg)'}}></div>
                         <div className={style.content}>
                             <h1 className={style.title}>Title 1</h1>
