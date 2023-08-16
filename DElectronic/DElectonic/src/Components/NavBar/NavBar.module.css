@@ -14,12 +14,14 @@
   padding: 0;
   padding-left: 10px;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .button:hover {
   color: var(--yellow);
+  transform: scale(1.1);
 }
 
 .button.active {
-  color: var(--yellow)
+  color: var(--yellow);
 }

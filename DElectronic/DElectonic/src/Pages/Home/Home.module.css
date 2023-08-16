@@ -1,4 +1,4 @@
-/* Default styles */
+
 .container {
     width: 100%;
     height: 100%;
@@ -6,7 +6,7 @@
     background-size: cover;
   }
   
-  /* Responsive styles for screens with a maximum width of 768px */
+
   @media (max-width: 768px) {
     .container {
       display: flex;

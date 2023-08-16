@@ -5,6 +5,8 @@
   --yellow : rgba(255,209,0);
   --lightBlue : #03a9f4;
   --boxShadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.6);
+  --orange: #ff6600;
+  --red: #c8102e;
 }
 
 body{
