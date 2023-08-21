@@ -5,7 +5,7 @@
     background-color: var(--blue);
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -17,4 +17,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: start;
+}
+
+.socMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.icon{
+    width: 25px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
 }
