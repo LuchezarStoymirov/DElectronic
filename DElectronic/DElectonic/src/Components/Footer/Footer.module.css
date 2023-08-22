@@ -39,6 +39,7 @@
 .formHeader{
     color: var(--lightBlue);
     margin: 0;
+    cursor: default;
 }
 
 .map{

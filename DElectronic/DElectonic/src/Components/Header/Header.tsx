@@ -9,8 +9,10 @@ export const Header = () => {
         alt="Logo"
       />
       <div className={style.socMedia}>
-        <img src="src/Images/facebook.png" alt="" className={style.icon} />
-        <img src="src/Images/instagram.png" alt="" className={style.icon} />
+        <a href="https://www.facebook.com/profile.php?id=100092961762915" target="_blank" rel="noopener noreferrer">
+          <img src="src/Images/facebook.png" alt="Facebook" className={style.icon} />
+        </a>
+        <img src="src/Images/instagram.png" alt="Instagram" className={style.icon} />
       </div>
     </div>
   );

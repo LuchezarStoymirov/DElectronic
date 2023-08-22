@@ -14,10 +14,10 @@ export const Footer = () => {
           ></iframe>
         </div>
         <div className={style.contacts}>
-          <h3 className={style.info}><span style={{color: 'gray', fontSize: '15px'}}>Телефон: </span>+359877608777</h3>
-          <h3 className={style.info}><span style={{color: 'gray', fontSize: '15px'}}>Имейл:</span> de.elektronik@gmail.com</h3>
+          <h3 className={style.info}><span style={{color: 'gray', fontSize: '15px', cursor:'default'}}>Телефон: </span>+359877608777</h3>
+          <h3 className={style.info}><span style={{color: 'gray', fontSize: '15px', cursor:'default'}}>Имейл:</span> de.elektronik@gmail.com</h3>
           <h3 className={style.info}>
-            <span style={{color: 'gray', fontSize: '15px'}}>Адрес:</span> Софийски околовръстен път 36, 1415 Водолей-1, София
+            <span style={{color: 'gray', fontSize: '15px', cursor:'default'}}>Адрес:</span> Софийски околовръстен път 36, 1415 Водолей-1, София
           </h3>
         </div>
         <div className={style.emailForm}>
