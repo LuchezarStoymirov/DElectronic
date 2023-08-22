@@ -31,3 +31,7 @@
 .content{
     color: white;
 }
+
+.container, .content, .info, .title{
+    cursor: default;
+}
