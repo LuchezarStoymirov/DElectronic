@@ -1,4 +1,5 @@
-.container{
+/* Base CSS (Unchanged) */
+.container {
     width: 100vw;
     margin: 0;
     background-image: url(src/Images/Exterior.jpeg);
@@ -6,16 +7,16 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center; 
     box-shadow: var(--boxShadow);
 }
 
-.info{
+.info {
     width: 600px;
+    max-width: 90%; /* Ensure the div doesn't exceed 90% of container width */
     height: 200px;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
-    margin: 0;
-    margin-left: 20px;
     padding: 10px;
     color: var(--lightBlue);
     border-radius: 8px;
@@ -24,14 +25,53 @@
     flex-direction: column;
 }
 
-.title{
+.title {
     margin: 0;
+    font-size: 2em; /* Using relative font-size, adjust as needed */
 }
 
-.content{
+.content {
     color: white;
+    font-size: 1em; /* Using relative font-size */
 }
 
-.container, .content, .info, .title{
+.container, .content, .info, .title {
     cursor: default;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+
+    .info{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container{
+        justify-content: center;
+        height: 90%;
+        background-position: 65%;
+    }
+
+    .title {
+        font-size: 1.5em; /* Reduce font size */
+    }
+
+    .content {
+        font-size: 0.9em; /* Reduce font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .info {
+        padding: 5px; /* Adjust padding */
+    }
+
+    .title {
+        font-size: 1.2em; /* Further reduce font size */
+    }
+
+    .content {
+        font-size: 0.8em; /* Further reduce font size */
+    }
 }

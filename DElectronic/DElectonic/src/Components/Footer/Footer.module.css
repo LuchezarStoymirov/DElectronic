@@ -1,13 +1,13 @@
-.container{
+.container {
     height: 100vh;
     width: 100vw;
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
-.footer{
+.footer {
     height: 60vh;
     width: 100vw;
     margin: 0;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.contacts{
+.contacts, .emailForm, .map {
     width: 30%;
     height: 80%;
     display: flex;
@@ -27,31 +27,18 @@
     align-items: start;
 }
 
-.emailForm{
-    width: 30%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
+.emailForm {
     justify-content: start;
     align-items: center;
 }
 
-.formHeader{
+.formHeader {
     color: var(--lightBlue);
     margin: 0;
     cursor: default;
 }
 
-.map{
-    width: 30%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-
-.mapInsert{
+.mapInsert {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -59,6 +46,26 @@
     border-radius: 8px;
 }
 
-.info{
+.info {
     color: white;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .container{
+        margin-top: 400px;
+    }
+    .footer {
+        flex-direction: column; /* Changes direction to column for smaller viewports */
+        height: auto;
+        padding: 20px 0;
+        align-items: start;     /* Align items to the start in column direction */
+        gap: 15px;            /* Spacing between the items */
+    }
+
+    .contacts, .emailForm, .map {
+        width: 90%; /* Adjust the width for smaller devices */
+        margin: 0 auto; /* Centers the content on small screens */
+    }
 }

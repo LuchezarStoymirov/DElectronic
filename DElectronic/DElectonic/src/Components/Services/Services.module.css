@@ -112,18 +112,73 @@
     margin: 0;
 }
 
-@media (max-width: 768px){
-    .info{
-        width: 90%;
+/* Your provided styles remain unchanged up until the media queries */
+
+@media (max-width: 768px) {
+    .info {
+        width: 100%;
         padding: 10px;
     }
 
-    .service{
+    .service {
         justify-content: center;
         width: 100%;
     }
 
-    .box{
+    .box {
         width: 90%;
+        padding-left: 15px;  /* Reduced padding for smaller devices */
+    }
+
+    .content {
+        padding-left: 8px;   /* Reduced padding */
+        padding-right: 8px;  /* Reduced padding */
+    }
+
+    .title {
+        font-size: 0.9em;    /* Reduced font size */
+    }
+
+    .description {
+        font-size: 0.8em;   /* Reduced font size */
+    }
+
+    .header {
+        font-size: 40px;    /* Reduced font size */
+    }
+
+    .storeLink{
+        font-size: 0.6em;
+    }
+
+    .img{
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .info {
+        padding: 5px;  /* Reduced padding for even smaller devices */
+    }
+
+    .box {
+        padding-left: 10px;   /* Further reduced padding */
+    }
+
+    .content {
+        padding-left: 5px;   /* Further reduced padding */
+        padding-right: 5px;  /* Further reduced padding */
+    }
+
+    .title {
+        font-size: 0.8em;    /* Further reduced font size */
+    }
+
+    .description {
+        font-size: 0.7em;   /* Further reduced font size */
+    }
+
+    .header {
+        font-size: 30px;    /* Further reduced font size */
     }
 }
