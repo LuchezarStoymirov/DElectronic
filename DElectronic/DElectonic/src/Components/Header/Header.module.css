@@ -40,3 +40,10 @@
 .icon:hover{
     transform: scale(1.1);
 }
+
+@media (max-width: 768px){
+    .header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

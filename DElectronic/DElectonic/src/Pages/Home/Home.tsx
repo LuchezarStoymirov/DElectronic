@@ -1,5 +1,5 @@
 import style from "./Home.module.css";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Header } from "../../Components/Header/Header";
 import { NavBar } from "../../Components/NavBar/NavBar";
 import { AboutUs } from "../../Components/AboutUs/AboutUs";
@@ -8,7 +8,8 @@ import { Footer } from "../../Components/Footer/Footer";
 import { useRef } from "react";
 
 export const Home = () => {
-  const parallaxRef = useRef(); 
+
+  const parallaxRef = useRef<IParallax | null>(null);
 
   return (
     <>

@@ -1,4 +1,4 @@
-/* Base CSS (Unchanged) */
+
 .container {
     width: 100vw;
     margin: 0;
@@ -13,11 +13,12 @@
 
 .info {
     width: 600px;
-    max-width: 90%; /* Ensure the div doesn't exceed 90% of container width */
+    max-width: 90%; 
     height: 200px;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
     padding: 10px;
+    margin-left: 20px;
     color: var(--lightBlue);
     border-radius: 8px;
     display: flex;
@@ -27,12 +28,12 @@
 
 .title {
     margin: 0;
-    font-size: 2em; /* Using relative font-size, adjust as needed */
+    font-size: 2em; 
 }
 
 .content {
     color: white;
-    font-size: 1em; /* Using relative font-size */
+    font-size: 1em;
 }
 
 .container, .content, .info, .title {
@@ -54,17 +55,17 @@
     }
 
     .title {
-        font-size: 1.5em; /* Reduce font size */
+        font-size: 1.5em; 
     }
 
     .content {
-        font-size: 0.9em; /* Reduce font size */
+        font-size: 0.9em; 
     }
 }
 
 @media (max-width: 480px) {
     .info {
-        padding: 5px; /* Adjust padding */
+        padding: 5px; 
     }
 
     .title {

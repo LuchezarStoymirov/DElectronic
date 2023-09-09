@@ -1,5 +1,5 @@
 import style from "./AboutUs.module.css";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { ParallaxLayer } from "@react-spring/parallax";
 
 export const AboutUs = () => {
   return (

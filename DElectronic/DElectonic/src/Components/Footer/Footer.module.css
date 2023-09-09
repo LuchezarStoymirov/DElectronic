@@ -50,22 +50,25 @@
     color: white;
 }
 
-/* Media queries for responsiveness */
+
 
 @media (max-width: 768px) {
     .container{
-        margin-top: 400px;
+        margin-top: 270px;
     }
     .footer {
-        flex-direction: column; /* Changes direction to column for smaller viewports */
+        flex-direction: column; 
         height: auto;
         padding: 20px 0;
-        align-items: start;     /* Align items to the start in column direction */
-        gap: 15px;            /* Spacing between the items */
+        align-items: start;     
+        gap: 15px;            
     }
 
     .contacts, .emailForm, .map {
-        width: 90%; /* Adjust the width for smaller devices */
-        margin: 0 auto; /* Centers the content on small screens */
+        width: 90%; 
+        margin: 0 auto; 
+        font-size: 0.6rem;
     }
+
+ 
 }

@@ -1,16 +1,21 @@
-import { useState } from "react";
+import { useState, RefObject } from "react";
 import style from "./NavBar.module.css";
+import { IParallax } from "@react-spring/parallax";
 
-export const NavBar = ({ parallaxRef}) => {
+type NavBarProps = {
+  parallaxRef: RefObject<IParallax>;
+};
+
+export const NavBar = ({ parallaxRef }: NavBarProps) => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonIndex: any) => {
     setActiveButton(buttonIndex);
 
     if (buttonIndex === 1) {
-      parallaxRef.current.scrollTo(1.2);
+      parallaxRef.current?.scrollTo(1.2);
     } else if (buttonIndex === 2) {
-      parallaxRef.current.scrollTo(2);
+      parallaxRef.current?.scrollTo(2);
     }
   };
 
