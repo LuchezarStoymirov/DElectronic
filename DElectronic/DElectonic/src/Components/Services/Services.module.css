@@ -15,7 +15,6 @@
     height: 98vh;
     margin: 0;
     padding: 0;
-    /* background-color: rgba(0,0,0,0.6); */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -53,7 +52,6 @@
 
 .box:hover{
     transform: scale(1.03);
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .img{
@@ -112,7 +110,7 @@
     margin: 0;
 }
 
-/* Your provided styles remain unchanged up until the media queries */
+
 
 @media (max-width: 768px) {
     .info {
@@ -127,24 +125,24 @@
 
     .box {
         width: 90%;
-        padding-left: 15px;  /* Reduced padding for smaller devices */
+        padding-left: 15px;  
     }
 
     .content {
-        padding-left: 8px;   /* Reduced padding */
-        padding-right: 8px;  /* Reduced padding */
+        padding-left: 8px;   
+        padding-right: 8px;  
     }
 
     .title {
-        font-size: 0.9em;    /* Reduced font size */
+        font-size: 0.9em;   
     }
 
     .description {
-        font-size: 0.8em;   /* Reduced font size */
+        font-size: 0.8em;  
     }
 
     .header {
-        font-size: 40px;    /* Reduced font size */
+        font-size: 40px;   
     }
 
     .storeLink{
