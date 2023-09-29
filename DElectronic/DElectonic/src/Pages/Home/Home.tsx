@@ -8,26 +8,25 @@ import { Footer } from "../../Components/Footer/Footer";
 import { useRef } from "react";
 
 export const Home = () => {
-
   const parallaxRef = useRef<IParallax | null>(null);
 
   return (
     <>
-    <Parallax ref={parallaxRef} pages={3}>
-      <div className={style.container}>
-        <ParallaxLayer>
-          <Header />
-          <NavBar parallaxRef={parallaxRef} />
-          <AboutUs />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1.3} speed={0.4}>
-          <Services />
-        </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0}>
-          <Footer/>
-        </ParallaxLayer>
-      </div>
-    </Parallax>
+      <Parallax ref={parallaxRef} pages={3}>
+        <div className={style.container}>
+          <ParallaxLayer>
+            <Header />
+            <NavBar parallaxRef={parallaxRef} />
+            <AboutUs />
+          </ParallaxLayer>
+          <ParallaxLayer offset={1.3} speed={0.4}>
+            <Services parallaxRef={parallaxRef} />
+          </ParallaxLayer>
+          <ParallaxLayer offset={2} speed={0}>
+            <Footer/>
+          </ParallaxLayer>
+        </div>
+      </Parallax>
     </>
   );
 };
