@@ -1,89 +1,92 @@
 .container {
-    width: 100vw;
-    margin: 0;
-    background-image: url(src/Images/Exterior.jpeg);
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    box-shadow: var(--boxShadow);
+  width: 100vw;
+  margin: 0;
+  background-image: url(src/Images/Exterior.jpeg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--boxShadow);
 }
 
 .info {
-    width: 600px;
-    max-width: 90%; 
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    padding: 10px;
-    margin-left: 20px;
-    color: var(--lightBlue);
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: fadeInFromLeft 1s ease-out forwards;
+  width: 600px;
+  max-width: 90%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  margin-left: 20px;
+  color: var(--lightBlue);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: fadeInFromLeft 1s ease-out forwards;
 }
 
 .title {
-    margin: 0;
-    font-size: 2em; 
+  margin: 0;
+  font-size: 2em;
 }
 
 .content {
-    color: white;
-    font-size: 1em;
+  color: white;
+  font-size: 1em;
 }
 
-.container, .content, .info, .title {
-    cursor: default;
+.container,
+.content,
+.info,
+.title {
+  cursor: default;
 }
 
 @media (max-width: 768px) {
-    .info {
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .info {
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .container {
-        justify-content: center;
-        height: 90%;
-        background-position: 65%;
-    }
+  .container {
+    justify-content: center;
+    height: 90%;
+    background-position: 65%;
+  }
 
-    .title {
-        font-size: 1.5em; 
-    }
+  .title {
+    font-size: 1.5em;
+  }
 
-    .content {
-        font-size: 0.9em; 
-    }
+  .content {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 480px) {
-    .info {
-        padding: 5px; 
-    }
+  .info {
+    padding: 5px;
+  }
 
-    .title {
-        font-size: 1.2em; 
-    }
+  .title {
+    font-size: 1.2em;
+  }
 
-    .content {
-        font-size: 0.8em; 
-    }
+  .content {
+    font-size: 0.8em;
+  }
 }
 
 @keyframes fadeInFromLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
