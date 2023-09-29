@@ -5,7 +5,7 @@ export const Header = () => {
     <div className={style.header}>
       <img
         className={style.logo}
-        src="src/Images/DElectronic-logo.png"
+        src="src/Images/DeElektronik-logo-white.png"
         alt="Logo"
       />
       <div className={style.socMedia}>
