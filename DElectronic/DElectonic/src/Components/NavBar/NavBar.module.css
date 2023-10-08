@@ -1,23 +1,70 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between; 
   margin: 0;
   height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   align-items: center;
   padding-left: 30px;
+  background-color: var(--headerBlue);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+}
+
+.leftContent { 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  margin: 0px;
+  padding-top: 5px;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: slideFromLeft 1s forwards;
+}
+
+.socMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-right: 50px; 
+}
+
+.icon {
+  width: 25px;
+  margin: 5px;
   background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  animation: slideFromRight 1s forwards;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
 
 .button {
   margin: 0;
   padding: 0;
+  color: white;
   padding-left: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
   opacity: 0;
   transform: translateX(-100%);
   animation: fadeInFromLeft 1s ease-out forwards;
+  font-weight: normal;
 }
 
 .button:hover {

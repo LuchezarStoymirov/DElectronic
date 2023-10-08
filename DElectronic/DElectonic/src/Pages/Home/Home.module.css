@@ -2,8 +2,6 @@
 .container {
     width: 100%;
     min-height: 100%;
-    background-image: url(src/Images/brickwall5k.jpeg);
-    background-size: cover;
   }
   
 

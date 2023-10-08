@@ -1,20 +1,14 @@
 import style from "./AboutUs.module.css";
-import { ParallaxLayer } from "@react-spring/parallax";
 
 export const AboutUs = () => {
   return (
     <div className={style.container}>
-        <ParallaxLayer offset={0.6} speed={0.5}>
       <div className={style.info}>
-        <h1 className={style.title}>Кои сме ние?</h1>
+        <h1 className={style.title}>Ние сме ДеЕлектроник</h1>
         <p className={style.content}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit
-          facilis error harum aliquid veniam in consequuntur aut architecto
-          labore sapiente quam praesentium, excepturi quaerat explicabo suscipit
-          minima. Saepe, quae.
+          Официален партньор и дистрибутор на Машини Husqvarna.
         </p>
       </div>
-      </ParallaxLayer>
     </div>
   );
 };

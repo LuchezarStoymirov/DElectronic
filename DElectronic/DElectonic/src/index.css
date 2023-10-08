@@ -2,6 +2,7 @@
   font-family: sans-serif;
 
   --blue: rgba(0, 37, 80);
+  --headerBlue: rgba(0, 37, 80, 0.9);
   --yellow : rgba(255,209,0);
   --lightBlue : #03a9f4;
   --boxShadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.6);
