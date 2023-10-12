@@ -35,7 +35,16 @@ export const Services = () => {
               </div>
             </div>
           </div>
-          <div className={style.service}></div>
+          <div className={style.service}>
+            <div className={style.box}>
+              <div className={style.img}>
+                <div className={style.content}>
+                  <h1>Placeholder</h1>
+                  <h4>Placeholder</h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
