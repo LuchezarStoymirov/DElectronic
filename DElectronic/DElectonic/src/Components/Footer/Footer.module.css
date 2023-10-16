@@ -10,7 +10,7 @@
 
 .footer {
     height: 60vh;
-    width: calc(100vw - 17px);
+    width: 100vw;
     margin: 0;
     background-color: var(--blue);
     display: flex;
