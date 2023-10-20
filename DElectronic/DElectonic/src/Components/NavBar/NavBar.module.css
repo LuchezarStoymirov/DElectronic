@@ -27,8 +27,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  animation: slideFromLeft 1s forwards;
+  animation: fadeIn forwards 2s; 
+  opacity: 0; 
 }
+
 
 .socMedia {
   display: flex;
@@ -93,5 +95,14 @@
   100% {
       opacity: 1;
       transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
