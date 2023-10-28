@@ -54,12 +54,12 @@ export const Services = () => {
             <div className={style.box}>
               <div
                 className={style.img}
-                style={{ backgroundImage: "url(src/Images/delivery.jpeg)" }}
+                style={{ backgroundImage: "url(src/Images/delivery.png)" }}
               ></div>
               <div className={style.content}>
                 <h1 className={style.title}>Доставки до Дома</h1>
                 <h4 className={style.description}>
-                  Възможност да получите машини от офис на Еконт или Спийди.
+                  Възможност да вземете машините си от офис на Еконт или Спийди.
                 </h4>
               </div>
             </div>
