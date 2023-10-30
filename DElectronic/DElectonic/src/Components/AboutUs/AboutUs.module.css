@@ -9,6 +9,11 @@
   justify-content: start;
 }
 
+.outer_container {
+  display: flex;
+  justify-content: center;
+}
+
 .info {
   width: 600px;
   max-width: 90%;

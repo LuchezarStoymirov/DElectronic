@@ -14,6 +14,7 @@ export const Footer = () => {
           ></iframe>
         </div>
         <div className={style.contacts}>
+        <h2 className={style.formHeader}>Контакти</h2>
           <h3 className={style.info}><span style={{color: 'gray', fontSize: '15px', cursor:'default'}}>Телефон: </span>+359877608777</h3>
           <h3 className={style.info}><span style={{color: 'gray', fontSize: '15px', cursor:'default'}}>Имейл:</span> de.elektronik@gmail.com</h3>
           <h3 className={style.info}>
