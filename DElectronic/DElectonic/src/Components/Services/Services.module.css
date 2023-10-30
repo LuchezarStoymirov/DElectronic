@@ -127,7 +127,7 @@
 }
 
 .row:nth-child(2) .service:nth-child(1) .img {
-    background-position: -10px;
+    background-position: 0px;
 } 
 
 @keyframes fadeInUp {

@@ -1,17 +1,49 @@
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .container {
   width: 100vw;
   margin: 0;
-  background-image: url(src/Images/Exterior.jpeg);
   background-size: cover;
   height: 100vh;
   display: flex;
   align-items: start;
   justify-content: start;
+  overflow: hidden;
+  position: relative; 
 }
 
-.outer_container {
-  display: flex;
-  justify-content: center;
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.currentImage {
+  animation: slideOut 3s forwards;
+}
+
+.nextImage {
+  animation: slideIn 3s forwards;
 }
 
 .info {
