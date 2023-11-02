@@ -51,11 +51,10 @@
     }
 
     .socMedia {
-        margin-right: 0; /* Reset the margin on smaller screens */
+        margin-right: 0; 
     }
 }
 
-/* Animations */
 @keyframes slideFromLeft {
     0% {
         transform: translateX(-100%);
@@ -86,3 +85,6 @@
     animation-delay: 0.4s;
 }
 
+@media (max-width: 480px) {
+    
+}

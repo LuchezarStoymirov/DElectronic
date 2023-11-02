@@ -3,7 +3,6 @@ import { QueryForm } from "../QueryFrom/QueryForm";
 
 export const Footer = () => {
   return (
-    <div className={style.container}>
       <div className={style.footer}>
       <div className={style.map}>
           <iframe
@@ -26,6 +25,5 @@ export const Footer = () => {
             <QueryForm />
         </div>
       </div>
-    </div>
   );
 };

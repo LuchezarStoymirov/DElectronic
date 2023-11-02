@@ -10,30 +10,48 @@ export const NavBar = () => {
 
   return (
     <div className={style.container}>
-      <div className={style.leftContent}> 
+      <div className={style.leftContent}>
         <img
           className={style.logo}
           src="src/Images/DeElektronik-logo-white.png"
           alt="Logo"
         />
         <p
-          className={`${style.button} ${activeButton === 1 ? style.active : ""}`}
+          className={`${style.button} ${
+            activeButton === 1 ? style.active : ""
+          }`}
           onClick={() => handleButtonClick(1)}
         >
           Услуги
         </p>
         <p
-          className={`${style.button} ${activeButton === 2 ? style.active : ""}`}
+          className={`${style.button} ${
+            activeButton === 2 ? style.active : ""
+          }`}
           onClick={() => handleButtonClick(2)}
         >
           Контакти
         </p>
       </div>
       <div className={style.socMedia}>
-        <a href="https://www.facebook.com/profile.php?id=100092961762915" target="_blank" rel="noopener noreferrer">
-          <img src="src/Images/facebook.png" alt="Facebook" className={style.icon} />
+        <a
+          href="https://www.facebook.com/profile.php?id=100092961762915"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="src/Images/facebook.png"
+            alt="Facebook"
+            className={style.icon}
+          />
         </a>
-        <img src="src/Images/instagram.png" alt="Instagram" className={style.icon} />
+        <a>
+          <img
+            src="src/Images/instagram.png"
+            alt="Instagram"
+            className={style.icon}
+          />
+        </a>
       </div>
     </div>
   );

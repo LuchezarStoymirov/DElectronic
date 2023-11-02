@@ -87,6 +87,25 @@
   }
 }
 
+@media (max-width: 480px) {
+  .logo {
+    width: 90px;
+  }
+
+  .button {
+    font-size: 10px;
+    padding: 0;
+  }
+
+  .socMedia {
+    margin-right: 10px;
+  }
+
+  .icon { 
+    width: 20px;
+  }
+}
+
 @keyframes fadeInFromLeft {
   0% {
       opacity: 0;
