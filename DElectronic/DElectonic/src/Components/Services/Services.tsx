@@ -9,7 +9,7 @@ export const Services = () => {
             <div className={style.box}>
               <div
                 className={style.img}
-                style={{ backgroundImage: "url(src/Images/Services.jpeg)" }}
+                style={{ backgroundImage: "url(public/Services.jpeg)" }}
               ></div>
               <div className={style.content}>
                 <h1 className={style.title}>Магазин</h1>
@@ -24,7 +24,7 @@ export const Services = () => {
             <div className={style.box}>
               <div
                 className={style.img}
-                style={{ backgroundImage: "url(src/Images/repair.jpeg)" }}
+                style={{ backgroundImage: "url(public/repair.jpeg)" }}
               ></div>
               <div className={style.content}>
                 <h1 className={style.title}>Ремонт и Обслужване на Машини</h1>
@@ -40,7 +40,7 @@ export const Services = () => {
             <div className={style.box}>
               <div
                 className={style.img}
-                style={{ backgroundImage: "url(src/Images/robot.jpeg)" }}
+                style={{ backgroundImage: "url(public/robot.jpeg)" }}
               ></div>
               <div className={style.content}>
                 <h1 className={style.title}>Инсталация на Косачки-Роботи</h1>
@@ -54,7 +54,7 @@ export const Services = () => {
             <div className={style.box}>
               <div
                 className={style.img}
-                style={{ backgroundImage: "url(src/Images/delivery.png)" }}
+                style={{ backgroundImage: "url(public/delivery.png)" }}
               ></div>
               <div className={style.content}>
                 <h1 className={style.title}>Доставки до Дома</h1>

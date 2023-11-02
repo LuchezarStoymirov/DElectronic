@@ -51,11 +51,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('src/Images/Exterior.jpeg'); /* Your exterior image path */
+  background-image: url('public/Exterior.jpeg');
   background-size: cover;
-  background-attachment: fixed; /* This creates the parallax effect */
+  background-attachment: fixed; 
   background-position: center;
-  z-index: -1; /* Ensure the image stays behind the content */
+  z-index: -1;
 }
 
 .visibleImage {
