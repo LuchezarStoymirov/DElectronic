@@ -2,7 +2,7 @@ import style from "./Services.module.css";
 
 export const Services = () => {
   return (
-    <div className={style.container}>
+    <div id="services" className={style.container}>
       <div className={style.info}>
         <div className={style.row}>
           <div className={style.service}>

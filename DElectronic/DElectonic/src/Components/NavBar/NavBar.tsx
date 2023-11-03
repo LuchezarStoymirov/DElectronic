@@ -6,7 +6,23 @@ export const NavBar = () => {
 
   const handleButtonClick = (buttonIndex: any) => {
     setActiveButton(buttonIndex);
+    let elementId = "";
+    switch (buttonIndex) {
+      case 1:
+        elementId = "services";
+        break;
+      case 2:
+        elementId = "footer";
+        break;
+      default:
+        return;
+    }
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
+
 
   return (
     <div className={style.container}>
