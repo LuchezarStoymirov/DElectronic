@@ -13,7 +13,7 @@ export const NavBar = () => {
       <div className={style.leftContent}>
         <img
           className={style.logo}
-          src="src/Images/DeElektronik-logo-white.png"
+          src="/DeElektronik-logo-white.png"
           alt="Logo"
         />
         <p
@@ -40,14 +40,14 @@ export const NavBar = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="src/Images/facebook.png"
+            src="/facebook.png"
             alt="Facebook"
             className={style.icon}
           />
         </a>
         <a>
           <img
-            src="src/Images/instagram.png"
+            src="/instagram.png"
             alt="Instagram"
             className={style.icon}
           />
