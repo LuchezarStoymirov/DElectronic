@@ -56,14 +56,14 @@ export const NavBar = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/facebook.png"
+            src="/DElectronic/facebook.png"
             alt="Facebook"
             className={style.icon}
           />
         </a>
         <a>
           <img
-            src="/instagram.png"
+            src="/DElectronic/instagram.png"
             alt="Instagram"
             className={style.icon}
           />
