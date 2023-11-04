@@ -125,10 +125,6 @@
   color: var(--blue);
 }
 
-.row:nth-child(2) .service:nth-child(1) .img {
-    background-position: 0px;
-} 
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -150,7 +146,7 @@
 
 @media (max-width: 1300px){
   .row:nth-child(2) .service:nth-child(1) .img {
-    background-position: 0;
+    background-position: 40% center;
 } 
 }
 
