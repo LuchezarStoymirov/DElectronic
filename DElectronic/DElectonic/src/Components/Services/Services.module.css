@@ -150,7 +150,7 @@
 
 @media (max-width: 1300px){
   .row:nth-child(2) .service:nth-child(1) .img {
-    background-position: -60px;
+    background-position: 0;
 } 
 }
 
