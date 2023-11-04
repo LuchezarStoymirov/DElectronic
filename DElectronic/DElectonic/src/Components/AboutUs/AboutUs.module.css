@@ -90,6 +90,10 @@
 @media (max-width: 480px) {
   .info {
     padding: 5px;
+    height: 100px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 30px;
   }
 
   .title {
@@ -104,9 +108,6 @@
     height: 300px;
   }
 
-  .info {
-    height: 100px;
-  }
 }
 
 @keyframes fadeIn {
