@@ -29,7 +29,7 @@ export const NavBar = () => {
       <div className={style.leftContent}>
         <img
           className={style.logo}
-          src="/DeElektronik-logo-white.png"
+          src="/DElectronic/DeElektronik-logo-white.png"
           alt="Logo"
         />
         <p
