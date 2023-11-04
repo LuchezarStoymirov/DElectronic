@@ -90,10 +90,10 @@
 @media (max-width: 480px) {
   .info {
     padding: 5px;
-    height: 100px;
+    height: 50px;
     width: 300px;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .title {
