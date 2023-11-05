@@ -54,3 +54,13 @@
     color: white;
     box-sizing: border-box; 
 }
+
+@media (max-width: 480px){
+    .queryForm {
+        height: 300px;
+    }
+
+    .queryForm > label {
+        font-size: 13px;
+    }
+}

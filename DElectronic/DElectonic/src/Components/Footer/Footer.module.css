@@ -71,9 +71,27 @@
 @media (max-width: 480px) {
 
     .footer { 
-        height: 150vh;
+        height: 80vh;
         margin-top: 0;
         background-color: var(--blue);
         margin-top: 0px;
+    }
+
+    .contacts {
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .map { 
+        height: 250px;
+    }
+
+    .emailForm {
+        align-items: start;
+        margin-top: 20px;
+    }
+
+    .info {
+        font-size: 13px;
     }
 }
